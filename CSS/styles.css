@@ -1,7 +1,35 @@
+font-family: 'Noto Serif', serif;
+
+font-family: 'Source Sans Pro', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: #33ccff;
+    background-color: #002642;
+    font-family: 'Noto Serif', serif;
+    color: #e5dada;
+}
+
+ul {
+    border-style: solid;
+    background-color: #e5dada;
 }
 
 h1 {
-    color: #3c007c;
+    color: #e59500;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a:link {
+    color: #e59500;
+}
+
+a:visited {
+    color: #02040f;
 }
