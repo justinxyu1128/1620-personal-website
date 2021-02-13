@@ -13,9 +13,14 @@ body {
     color: #e5dada;
 }
 
-ul {
+.menu {
     border-style: solid;
     background-color: #e5dada;
+}
+
+nav > ul > li {
+    display: inline;
+    border-style: solid;
 }
 
 h1 {
