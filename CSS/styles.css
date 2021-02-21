@@ -13,9 +13,16 @@ body {
     color: #e5dada;
 }
 
+.main {
+    margin-top: 80px;
+}
+
 .menu {
     border-style: solid;
     background-color: #e5dada;
+    position: fixed;
+    top: 10px;
+    width: 100%;
 }
 
 nav > ul > li {
@@ -31,10 +38,26 @@ h1 {
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
 }
+
 a:link {
-    color: #e59500;
+    color: #002642;
 }
 
 a:visited {
-    color: #02040f;
+    color: #002642; 
+}
+
+.lcontrast:link {
+    color: #e59500;
+}
+
+.lcontrast:visited {
+    color: #e59500;
+}
+
+#myface {
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
 }
